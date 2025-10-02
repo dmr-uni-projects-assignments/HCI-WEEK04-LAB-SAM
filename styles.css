@@ -1,28 +1,21 @@
 * {
     margin: 0;
-    margin-bottom: 5pt;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: red;
+    font-family: "Roboto", Arial, sans-serif;
     text-align: center;
 }
 
-h1,
-h2,
-p,
-a {
-    font-family: 'Arial', sans-serif;
+body {
+    background-image: url("https://static.wikia.nocookie.net/projectsekai/images/7/7d/A_Moment_Full_Of_Warmth_T.png/revision/latest");
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
-h1 {
-    color: blue;
-    font-size: 50pt;
-}
-
-h2 {
+.top {
+    border-radius: 20pt;
+    padding: 20pt;
     background: linear-gradient(90deg,
             rgba(255, 0, 0, 1) 0%,
             rgba(255, 154, 0, 1) 10%,
@@ -35,44 +28,45 @@ h2 {
             rgba(186, 12, 248, 1) 80%,
             rgba(251, 7, 217, 1) 90%,
             rgba(255, 0, 0, 1) 100%);
-    border: 20pt solid black;
-    padding: 2pt;
-    margin: 20pt;
-    box-sizing: border-box;
-    color: #6a6aff;
-    font-size: 30pt;
-    letter-spacing: -5pt;
-    border-radius: 50pt;
+    width: 500pt;
+    margin: 0 auto;
+    margin-top: 100pt;
+    margin-bottom: 50pt;
+    font-size: 20pt;
+    color: black;
+
 }
 
-p,
 a {
-    color: rgb(255, 255, 255);
-    font-size: 20pt;
     text-decoration: none;
 }
 
-.another {
-    color: rgba(0, 255, 0, 0.5);
-    background-color: black;
-    font-size: 15pt;
+.link {
+    color: white;
+    font-weight: bold;
 }
 
-#subother {
-    background-color: hsl(300, 100%, 25%);
+.main {
+    width: 1000pt;
+    margin: 0 auto;
 }
 
-article p {
-    font-size: 10pt;
-    font-style: italic;
+h1 {
+    font-size: 40pt;
+    margin-bottom: 20pt;
 }
 
-.mantap {
-    padding-top: 10pt;
-    padding-bottom: 10pt;
-    margin: 30pt;
-    background-image: url("https://static.wikia.nocookie.net/projectsekai/images/7/7d/A_Moment_Full_Of_Warmth_T.png/revision/latest");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+p {
+    font-size: 20pt;
+    margin-bottom: 30pt;
+}
+
+.button {
+  padding: 12px 24px;
+  background: rgb(225, 142, 255);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
 }
